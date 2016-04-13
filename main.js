@@ -1,7 +1,6 @@
 var prompt = require('prompt');
 var fs = require('fs');
 
-
 var student = require('./student.js'); 
 var classRoster = [];
 

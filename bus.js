@@ -3,8 +3,6 @@ var main = require('./main');
 
 exports.Bus = function() {
 
-  console.log("### BUS BUS BUS");
-
   this.studentsOnTheBus = [];
   this.driverName = "";
   this.color = "";
@@ -29,7 +27,10 @@ exports.Bus = function() {
 
     for (var i = 0; i < main.classRoster.length; i++) {
       if (main.classRoster[i].havingFun) {
-        console.log(main.classRoster[i].catchPhrase);
+        console.log(
+          main.classRoster[i].catchPhrase + 
+          " is saying " + 
+          main.classRoster[i].catchPhrase);
       }
     }
 
